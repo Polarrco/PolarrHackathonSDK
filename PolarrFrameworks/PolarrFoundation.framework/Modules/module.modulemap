@@ -1,0 +1,11 @@
+framework module PolarrFoundation {
+  umbrella header "PolarrFoundation.h"
+
+  export *
+  module * { export * }
+}
+
+module PolarrFoundation.Swift {
+    header "PolarrFoundation-Swift.h"
+    requires objc
+}

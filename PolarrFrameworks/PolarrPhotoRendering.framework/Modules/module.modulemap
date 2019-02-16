@@ -1,0 +1,11 @@
+framework module PolarrPhotoRendering {
+  umbrella header "PolarrPhotoRendering.h"
+
+  export *
+  module * { export * }
+}
+
+module PolarrPhotoRendering.Swift {
+    header "PolarrPhotoRendering-Swift.h"
+    requires objc
+}

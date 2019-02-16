@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HackathonDemo/HackathonDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VideoAssessmentDemo/VideoAssessmentDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PolarrSegmentationDemo/PolarrSegmentationDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PolarrSmartCropDemo/PolarrSmartCropDemo.xcodeproj">
+   </FileRef>
+</Workspace>

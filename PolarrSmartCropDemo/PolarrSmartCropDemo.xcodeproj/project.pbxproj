@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E623C1D2215003D00A929FF /* PolarrPhotoRendering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E623C1B2215003D00A929FF /* PolarrPhotoRendering.framework */; };
+		7E623C1E2215003D00A929FF /* PolarrPhotoRendering.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E623C1B2215003D00A929FF /* PolarrPhotoRendering.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7E623C1F2215003D00A929FF /* PolarrFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E623C1C2215003D00A929FF /* PolarrFoundation.framework */; };
+		7E623C202215003D00A929FF /* PolarrFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E623C1C2215003D00A929FF /* PolarrFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7EA78326221339E3002C692F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78325221339E3002C692F /* AppDelegate.swift */; };
+		7EA78328221339E3002C692F /* SmartCropDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78327221339E3002C692F /* SmartCropDemoController.swift */; };
+		7EA7832B221339E3002C692F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA78329221339E3002C692F /* Main.storyboard */; };
+		7EA7832D221339E4002C692F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7832C221339E4002C692F /* Assets.xcassets */; };
+		7EA78330221339E4002C692F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7832E221339E4002C692F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EA7833E22133A62002C692F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7E623C1E2215003D00A929FF /* PolarrPhotoRendering.framework in Embed Frameworks */,
+				7E623C202215003D00A929FF /* PolarrFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E623C1B2215003D00A929FF /* PolarrPhotoRendering.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PolarrPhotoRendering.framework; path = ../PolarrFrameworks/PolarrPhotoRendering.framework; sourceTree = "<group>"; };
+		7E623C1C2215003D00A929FF /* PolarrFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PolarrFoundation.framework; path = ../PolarrFrameworks/PolarrFoundation.framework; sourceTree = "<group>"; };
+		7EA78322221339E3002C692F /* PolarrSmartCropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolarrSmartCropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA78325221339E3002C692F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EA78327221339E3002C692F /* SmartCropDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCropDemoController.swift; sourceTree = "<group>"; };
+		7EA7832A221339E3002C692F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EA7832C221339E4002C692F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EA7832F221339E4002C692F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EA78331221339E4002C692F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA7831F221339E3002C692F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E623C1D2215003D00A929FF /* PolarrPhotoRendering.framework in Frameworks */,
+				7E623C1F2215003D00A929FF /* PolarrFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA78319221339E3002C692F = {
+			isa = PBXGroup;
+			children = (
+				7E623C1C2215003D00A929FF /* PolarrFoundation.framework */,
+				7E623C1B2215003D00A929FF /* PolarrPhotoRendering.framework */,
+				7EA78324221339E3002C692F /* Runtime */,
+				7EA7833722133A05002C692F /* Controllers */,
+				7EA78323221339E3002C692F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA78323221339E3002C692F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA78322221339E3002C692F /* PolarrSmartCropDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA78324221339E3002C692F /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				7EA78329221339E3002C692F /* Main.storyboard */,
+				7EA7832E221339E4002C692F /* LaunchScreen.storyboard */,
+				7EA78331221339E4002C692F /* Info.plist */,
+				7EA78325221339E3002C692F /* AppDelegate.swift */,
+				7EA7832C221339E4002C692F /* Assets.xcassets */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		7EA7833722133A05002C692F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EA78327221339E3002C692F /* SmartCropDemoController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA78321221339E3002C692F /* PolarrSmartCropDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA78334221339E4002C692F /* Build configuration list for PBXNativeTarget "PolarrSmartCropDemo" */;
+			buildPhases = (
+				7EA7831E221339E3002C692F /* Sources */,
+				7EA7831F221339E3002C692F /* Frameworks */,
+				7EA78320221339E3002C692F /* Resources */,
+				7EA7833E22133A62002C692F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolarrSmartCropDemo;
+			productName = PolarrHackathonDemo;
+			productReference = 7EA78322221339E3002C692F /* PolarrSmartCropDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA7831A221339E3002C692F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Polarr, Inc";
+				TargetAttributes = {
+					7EA78321221339E3002C692F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7EA7831D221339E3002C692F /* Build configuration list for PBXProject "PolarrSmartCropDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EA78319221339E3002C692F;
+			productRefGroup = 7EA78323221339E3002C692F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA78321221339E3002C692F /* PolarrSmartCropDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA78320221339E3002C692F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA78330221339E4002C692F /* LaunchScreen.storyboard in Resources */,
+				7EA7832D221339E4002C692F /* Assets.xcassets in Resources */,
+				7EA7832B221339E3002C692F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA7831E221339E3002C692F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA78328221339E3002C692F /* SmartCropDemoController.swift in Sources */,
+				7EA78326221339E3002C692F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EA78329221339E3002C692F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA7832A221339E3002C692F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EA7832E221339E4002C692F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA7832F221339E4002C692F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA78332221339E4002C692F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EA78333221339E4002C692F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA78335221339E4002C692F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3X5633H92;
+				FRAMEWORK_SEARCH_PATHS = ../PolarrFrameworks;
+				INFOPLIST_FILE = "$(SRCROOT)/Runtime/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.polarr.hackathon-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EA78336221339E4002C692F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3X5633H92;
+				FRAMEWORK_SEARCH_PATHS = ../PolarrFrameworks;
+				INFOPLIST_FILE = "$(SRCROOT)/Runtime/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.polarr.hackathon-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA7831D221339E3002C692F /* Build configuration list for PBXProject "PolarrSmartCropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA78332221339E4002C692F /* Debug */,
+				7EA78333221339E4002C692F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA78334221339E4002C692F /* Build configuration list for PBXNativeTarget "PolarrSmartCropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA78335221339E4002C692F /* Debug */,
+				7EA78336221339E4002C692F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA7831A221339E3002C692F /* Project object */;
+}
